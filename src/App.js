@@ -1,24 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import AdminLogin from './AdminLogin';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+    <div class="min-h-32 w-full pt-5 font-serif shadow-xl">
+        <div class="float-left w-6/12 ">
+          <h1 class="pt-5 pl-1"><img src='./logo.png' class="max-h-16"></img></h1>
+        </div>
+
+        <div class="float-left w-6/12 ">
+          <h1 class="text-center text-2xl p-5 font-extrabold">Campus Navigation</h1>
+        </div>
+
+      </div>
+
+      <AdminLogin/>
+      
+    </>
   );
 }
 
